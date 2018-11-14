@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=name\ s
+comment0.target=IsoscelesRightTriangle(java.lang.String,\ double)
+comment0.text=\n\ Constructor\ for\ the\ objects\ of\ class\ IsoscelesRightTriangle\n\ \n\ @param\ name\ name\ of\ the\ triangle,\ probably\ vertices\ \n\ @param\ s\ side\ length\ of\ the\ triangle's\ identical\ side\ lengths\ \n\ \n
+comment1.params=anotherA
+comment1.target=void\ setSideA(double)
+comment1.text=\n\ Sets\ the\ length\ of\ the\ hypotenuse\ and\ resets\ the\ two\ equivalent\ sides.\ \n\ \n\ @param\ anotherA\ the\ length\ of\ the\ hypotenuse\ of\ the\ isosceles\ right\ triangle\ \n
+comment2.params=anotherB
+comment2.target=void\ setSideB(double)
+comment2.text=\n\ Sets\ the\ length\ of\ the\ two\ equivalent\ sides\ and\ recalculates\ the\ hypotenuse\ \n\ \n\ @param\ anotherB\ the\ length\ of\ one\ of\ the\ legs\ of\ the\ isosceles\ right\ triangle\ \n
+comment3.params=anotherC
+comment3.target=void\ setSideC(double)
+comment3.text=\n\ Sets\ the\ length\ of\ the\ two\ equivalent\ sides\ and\ recalculates\ the\ hypotenuse\ \n\ \n\ @param\ anotherC\ the\ length\ of\ one\ of\ the\ legs\ of\ the\ isosceles\ right\ triangle\ \n
+numComments=4

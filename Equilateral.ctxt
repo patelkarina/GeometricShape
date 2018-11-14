@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=name\ s
+comment0.target=Equilateral(java.lang.String,\ double)
+comment0.text=\n\ Constructor\ for\ Equilateral\ triangle\ with\ a\ given\ name\ and\ side\ length\ \ \n\ \n\ @param\ name\ name\ of\ the\ triangle,\ probably\ vertices\ \n\ @param\ s\ the\ length\ of\ one\ of\ the\ sides\ of\ the\ equilateral\ \n\ \ \n
+comment1.params=name
+comment1.target=Equilateral(java.lang.String)
+comment1.text=\n\ Constructor\ for\ unit\ equilateral\ object\ of\ class\ Equilateral.\ \n\ "this"\ equilateral\ has\ a\ length\ of\ one.\n\n\ @param\ name\ name\ of\ the\ equilateral\ \ \n
+comment2.params=sideA
+comment2.target=void\ setSideA(double)
+comment2.text=\n\ Sets\ the\ length\ of\ the\ three\ equivalent\ sides\ \n\n\ @param\ sideA\ the\ length\ of\ a\ side\ of\ an\ equilateral\ triangle\ \n
+comment3.params=sideB
+comment3.target=void\ setSideB(double)
+comment3.text=\n\ Sets\ the\ length\ of\ the\ three\ equivalent\ sides\ \n\n\ @param\ sideB\ the\ length\ of\ a\ side\ of\ an\ equilateral\ triangle\ \n
+comment4.params=sideC
+comment4.target=void\ setSideC(double)
+comment4.text=\n\ Sets\ the\ length\ of\ the\ three\ equivalent\ sides\ \n\n\ @param\ sideC\ the\ length\ of\ a\ side\ of\ an\ equilateral\ triangle\ \n
+numComments=5

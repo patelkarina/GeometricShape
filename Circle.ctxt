@@ -1,0 +1,32 @@
+#BlueJ class context
+comment0.params=name\ r
+comment0.target=Circle(java.lang.String,\ double)
+comment0.text=\n\ Constructor\ for\ objects\ of\ the\ circle\ class.\ \ \n\ \n\ @param\ name\ name\ of\ the\ circle\n\ @param\ r\ \ \ \ radius\ \n\ \ \n
+comment1.params=name
+comment1.target=Circle(java.lang.String)
+comment1.text=\n\ Constructor\ for\ unit\ circle\ object\ of\ class\ Circle.\ *\ "this"\ circle\ has\ a\ length\ of\ one.\n\n\ @param\ name\ name\ of\ the\ circle\ \n
+comment2.params=
+comment2.target=double\ getPerimeter()
+comment2.text=\n\ Calculates\ the\ perimeter.\ \n\ \n\ @return\ the\ perimeter\ of\ the\ circle\ \n
+comment3.params=
+comment3.target=double\ getArea()
+comment3.text=\n\ Calculates\ the\ area.\ \ \ \n\ \n\ @return\ the\ area\ of\ the\ circle\ \n\ \ \n
+comment4.params=r
+comment4.target=void\ setRadius(double)
+comment4.text=\n\ Sets\ the\ length\ of\ the\ radius.\n\ \n\ @param\ r\ the\ length\ of\ the\ new\ radius\ and\ r\ >\ 0\n\ @throw\ IllegalArgumentException\ if\ radius\ is\ <\=\ 0\n\ \ \n
+comment5.params=
+comment5.target=double\ getRadius()
+comment5.text=\ \n\ Gets\ the\ length\ of\ the\ radius.\n\ \n\ @return\ the\ radius\ of\ the\ circle\ \n
+comment6.params=obj
+comment6.target=int\ compareTo(java.lang.Object)
+comment6.text=\n\ Compares\ current\ circle\ with\ the\ Object\ obj.\ \n\n\ @param\ obj\ Circle\ object\ with\ which\ to\ compare\n\ @return\ 0\ \ if\ the\ two\ circles\ have\ the\ same\ length\ radii\ within\ an\ EPSILON,\ \n\ which\ is\ defined\ in\ GeometricShape\ \n\ >\ 0\ if\ "this"\ radius\ >\ than\ obj's\ radius\n\ <\ 0\ if\ "this"\ radius\ <\ obj's\ radius\ \n\ \n
+comment7.params=obj
+comment7.target=boolean\ equals(java.lang.Object)
+comment7.text=\n\ Tests\ if\ the\ two\ circles\ have\ radii\ that\ are\ equal,\ within\ an\ EPSILON,\ \n\ which\ is\ defined\ in\ GeometricShape.\ \n\ \n\ @param\ obj\ Circle\ object\ to\ test\ if\ its\ radius\ is\ "nearly\ equal"\ to\ "this"\ radius\n\ \n\ @return\ true\ if\ the\ radii\ have\ "nearly\ equal"\ lengths;\ otherwise,\ \n\ \ \ \ \ \ \ \ \ false\ \n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\n\ Formats\ the\ class\ name,\ the\ circle's\ name,\ area,\ perimeter,\ and\ radius\ for\ the\ circle.\n\n\ @return\ formatted\ information\ about\ the\ circle\ \n
+comment9.params=
+comment9.target=boolean\ isPolygon()
+comment9.text=\n\ Tests\ if\ the\ cirlce\ is\ a\ polygon\n\n\ @return\ false\n
+numComments=10

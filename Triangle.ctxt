@@ -1,0 +1,47 @@
+#BlueJ class context
+comment0.params=name\ m\ n\ p
+comment0.target=Triangle(java.lang.String,\ double,\ double,\ double)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Triangle\n\ @postcondition\ sideA\ >\=\ sideB\ >\=\ sideC\n\ \n\ @param\ name\ name\ of\ the\ triangle,\ probably\ vertices\n\ @param\ m\ \ one\ of\ the\ side\ lengths\ of\ the\ triangle\n\ @param\ n\ \ another\ one\ of\ the\ side\ lengths\ of\ the\ triangle\n\ @param\ p\ \ last\ value\ of\ a\ side\ length\ of\ the\ triangle\ \n\ \n
+comment1.params=
+comment1.target=double\ getArea()
+comment1.text=\n\ Calculate\ the\ area\ using\ Heron's\ formula\ \ \n\ \n\ @return\ the\ area\ of\ the\ triangle\n\ \ \n
+comment10.params=
+comment10.target=int\ numSides()
+comment10.text=\n\ Calculates\ the\ number\ of\ sides\ of\ the\ triangle\ \ \ \n\ \n\ @return\ the\ number\ of\ sides\ of\ the\ triangle\ \n\ \ \n
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment11.text=\n\ Formats\ the\ class\ name,\ the\ triangle's\ name,\ area,\ perimeter,\ and\ the\ three\ sides\ of\ \n\ of\ the\ triangle\ plus\ whether\ it\ is\ regular\ and\ that\ it\ has\ three\ sides.\ \n\ \n\ @return\ formatted\ information\ about\ the\ triangle\ \n\ \ \n
+comment12.params=a\ b\ c
+comment12.target=void\ orderSides(double,\ double,\ double)
+comment12.text=\n\ Order\ the\ side\ lengths\ so\ that\ sideA\ >\=\ sideB\ >\=\ sideC\n\ \n\ @postcondition\ sideA\ >\=\ sideB\ >\=\ sideC\n\ \n\ @param\ a\ one\ of\ the\ side\ lenghts\ of\ the\ triangle\n\ @param\ b\ another\ of\ the\ side\ lengths\ of\ the\ triangle\n\ @param\ c\ last\ of\ the\ side\ lengths\ of\ the\ triangle\n\ \n\ @throws\ IllegalArgumentException\ if\ the\ sides\ do\ not\ make\ a\ valid\ triangle\ \n
+comment13.params=obj
+comment13.target=boolean\ equals(java.lang.Object)
+comment13.text=\n\ Tests\ if\ the\ two\ triangles\ are\ equal,\ within\ an\ EPSILON,\ which\ is\ defined\ in\ GeometricShape.\ \n\ \n\ @param\ obj\ Triangle\ object\ to\ test\ if\ similar\ \n\ \n\ @return\ true\ if\ the\ sides\ have\ the\ same\ length,\ otherwise\n\ \ \ \ \ \ \ \ \ false\ \n
+comment14.params=obj
+comment14.target=int\ compareTo(java.lang.Object)
+comment14.text=\n\ \ Compares\ current\ triangle\ with\ the\ Object\ obj.\n\ \ \n\ \ @param\ obj\ Triangle\ object\ with\ which\ to\ compare\n\ \ \n\ \ @return\ 0\ \ if\ the\ two\ triangles\ have\ the\ same\ length\ sides.\ \n\ \ \ \ \ \ \ \ >\ 0\ \ determined\ by\ comparing\ the\ two\ longest\ sides;\n\ \ \ \ \ \ \ \ \ \ \ \ \ if\ equal,\ compare\ medium\ length\ sides;\ and\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ if\ equal,\ compare\ the\ shortest\ side\ until\ current\ triangle\n\ \ \ \ \ \ \ \ \ \ \ \ \ has\ a\ longer\ length\ than\ obj's\ comparable\ length.\n\ \ \ \ \ \ \ \ <\ 0\ \ determined\ by\ comparing\ the\ two\ longest\ sides;\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ if\ equal,\ compare\ medium\ length\ sides;\ and\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ if\ equal,\ compare\ the\ shortest\ side\ until\ current\ triangle\n\ \ \ \ \ \ \ \ \ \ \ \ \ has\ a\ shorter\ length\ than\ obj's\ comparable\ length.\n\ \ \ \ \ \ \ -999\ \ if\ obj\ is\ not\ a\ Triangle\ \ \ \n\ \ \n
+comment2.params=
+comment2.target=boolean\ isRegular()
+comment2.text=\n\ Checks\ to\ see\ whether\ the\ triangle\ is\ a\ regular\ triangle\ or\ not.\ \n\ \ \n\ \ @return\ true\ if\ triangle\ is\ a\ regular\ triangle,\ otherwise\n\ \ \ \ \ \ \ \ \ \ false\ \n
+comment3.params=anotherA
+comment3.target=void\ setSideA(double)
+comment3.text=\n\ Allows\ subclases\ to\ set\ sideA\ of\ a\ triangle\ \n\ \n\ @param\ anotherA\ the\ length\ of\ sideA\ of\ the\ shape\ \n
+comment4.params=anotherB
+comment4.target=void\ setSideB(double)
+comment4.text=\n\ Allows\ subclasses\ to\ set\ sideB\ of\ a\ triangle\ \n\ \n\ @param\ anotherB\ the\ length\ of\ sideB\ of\ the\ shape\ \n
+comment5.params=anotherC
+comment5.target=void\ setSideC(double)
+comment5.text=\n\ Allows\ subclasses\ to\ set\ sideC\ of\ a\ triangle\ \n\ \n\ @param\ anotherC\ the\ length\ of\ the\ sideC\ of\ the\ shape\ \n\ \ \n
+comment6.params=
+comment6.target=double\ getSideA()
+comment6.text=\n\ \n\ @return\ sideA\n
+comment7.params=
+comment7.target=double\ getSideB()
+comment7.text=\n\n\ @return\ sideB\n\ \ \n
+comment8.params=
+comment8.target=double\ getSideC()
+comment8.text=\n\ \n\ \ @return\ sideC\n
+comment9.params=
+comment9.target=double\ getPerimeter()
+comment9.text=\n\ Calculates\ the\ perimeter\ of\ the\ triangle\ \ \ \n\ \n\ @return\ the\ perimeter\ of\ the\ triangle\n\ \ \n
+numComments=15

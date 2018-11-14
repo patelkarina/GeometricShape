@@ -1,0 +1,38 @@
+#BlueJ class context
+comment0.params=name\ length\ width
+comment0.target=Rectangle(java.lang.String,\ double,\ double)
+comment0.text=\n\ Constructor\ for\ Rectangle\ with\ given\ name,\ length,\ and\ width\ \n\ \n\ @param\ name\ the\ name\ of\ the\ rectangle\n\ @param\ length\ the\ length\ of\ the\ rectangle\n\ @param\ width\ the\ width\ of\ the\ rectangle\ \n\ \n
+comment1.params=len
+comment1.target=void\ setLength(double)
+comment1.text=\n\ Sets\ the\ length\ of\ the\ rectangle.\n\ \n\ @param\ len\ the\ length\ of\ the\ rectangle\ \n\ @throw\ IllegalArgumentException\ if\ length\ is\ <\=\ 0\n\ \ \n
+comment10.params=obj
+comment10.target=boolean\ equals(java.lang.Object)
+comment10.text=\n\ Tests\ if\ the\ two\ rectangles\ are\ equal,\ within\ an\ EPSILON,\ \n\ which\ is\ defined\ in\ GeometricShape.\ \n\ \n\ @param\ obj\ rectangle\ object\ to\ test\ if\ similar\ \n\ \n\ @return\ true\ if\ the\ sides\ have\ the\ same\ length,\ otherwise\n\ \ \ \ \ \ \ \ \ false\ \n
+comment11.params=obj
+comment11.target=int\ compareTo(java.lang.Object)
+comment11.text=\n\ \ Compares\ current\ rectangle\ with\ the\ Object\ obj.\n\ \ \n\ \ @param\ obj\ Rectangle\ object\ with\ which\ to\ compare\n\ \ \n\ \ @return\ 0\ \ if\ the\ two\ rectangles\ have\ the\ same\ length\ sides.\ \n\ \ \ \ \ \ \ \ >\ 0\ \ determined\ by\ comparing\ the\ two\ longest\ sides;\n\ \ \ \ \ \ \ \ \ \ \ \ \ if\ equal,\ compare\ medium\ length\ sides;\ \n\ \ \ \ \ \ \ \ <\ 0\ \ determined\ by\ comparing\ the\ two\ longest\ sides;\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ if\ equal,\ compare\ medium\ length\ sides;\ \n\ \ \ \ \ \ \ -999\ \ if\ obj\ is\ not\ a\ Rectangle\ \ \ \ \n\ \ \n
+comment2.params=
+comment2.target=double\ getLength()
+comment2.text=\n\ Gets\ the\ length\ of\ the\ rectangle.\n\ \n\ @return\ the\ length\ of\ the\ rectangle\ \n\ \ \n
+comment3.params=
+comment3.target=int\ numSides()
+comment3.text=\n\ Calculates\ the\ number\ of\ sides\ of\ the\ rectangle\ \n\ \n\ @return\ the\ number\ of\ sides\ of\ the\ rectangle\ \n\ \ \n
+comment4.params=
+comment4.target=boolean\ isRegular()
+comment4.text=\n\ Determines\ if\ the\ rectangle\ is\ a\ regular\ rectangle.\ \n\ \ \n\ @return\ true\ if\ the\ four\ sides\ are\ nearly\ equal\ to\ each\ other,\ otherwise\n\ \ \ \ \ \ \ \ \ \ false\ \n
+comment5.params=
+comment5.target=double\ getArea()
+comment5.text=\ \n\ \ \n\ \ @return\ the\ area\ of\ the\ rectangle\ \n
+comment6.params=
+comment6.target=double\ getPerimeter()
+comment6.text=\n\ @return\ the\ perimeter\ of\ the\ rectangle\ \n
+comment7.params=wid
+comment7.target=void\ setWidth(double)
+comment7.text=\n\ Sets\ the\ width\ of\ the\ rectangle.\n\ \n\ @param\ wid\ the\ width\ of\ the\ rectangle\ \n\ @throw\ IllegalArgumentException\ if\ width\ is\ <\=\ 0\n\ \ \n
+comment8.params=
+comment8.target=double\ getWidth()
+comment8.text=\n\ Gets\ the\ width\ of\ the\ rectangle.\n\ \n\ @return\ the\ width\ of\ the\ rectangle\ \n\ \ \n
+comment9.params=
+comment9.target=java.lang.String\ toString()
+comment9.text=\n\ Formats\ the\ class\ name,\ the\ rectangle's\ name,\ area,\ perimeter,\n\ as\ well\ as\ the\ width\ and\ length\ or\ the\ rectangle.\ In\ addition,\ \n\ it\ includes\ whether\ it\ is\ a\ regular\ rectangle\ (square)\ and\ that\ \n\ is\ has\ four\ sides.\ \n\ \n\ @return\ formatted\ infromation\ about\ the\ rectangle\ \n
+numComments=12
